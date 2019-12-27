@@ -6,7 +6,7 @@ import IntroduceYourself from './components/introduce-yourself/IntroduceYourself
 const App:FC = ()=> {
   return (
     <div className="App">
-      test
+      
       <IntroduceYourself></IntroduceYourself>
     </div>
   );
