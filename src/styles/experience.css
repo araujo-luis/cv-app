@@ -7,7 +7,6 @@ html, body {
   
   .cd-container {
     width: 90%;
-    max-width: 1080px;
     margin: 0 auto;
     background: #2b343a;
     padding: 0 10%;
@@ -42,7 +41,7 @@ html, body {
     background: #7e57c2;
   }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1170px) {
     #cd-timeline {
       margin-top: 3em;
       margin-bottom: 3em;
@@ -72,7 +71,7 @@ html, body {
     margin-bottom: 0;
   }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1170px) {
     .cd-timeline-block {
       margin: 4em 0;
     }
@@ -98,8 +97,11 @@ html, body {
   .cd-timeline-img {
     background: #673ab7;
   }
+  .cd-timeline-content {
+    margin-bottom: 40px;
+  }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1170px) {
     .cd-timeline-img {
       width: 30px;
       height: 30px;
@@ -184,8 +186,13 @@ html, body {
   }
   
   .cd-timeline-content p {
-    margin: 1em 0;
+    margin: 1em 2em;
     line-height: 1.6;
+    font-size: 13px;
+    text-align: justify;
+  }
+  .cd-timeline-content ul{
+    list-style: outside;
   }
   .icon-space {
     margin: 0 10px;
@@ -201,23 +208,15 @@ html, body {
     border-right: 7px solid #333c42;
   }
   
-  @media only screen and (min-width: 768px) {
-    .cd-timeline-content h2 {
-      font-size: 20px;
-      font-size: 1.25rem;
-    }
-  
-    .cd-timeline-content p {
-      font-size: 16px;
-    }
-  
+  @media only screen and (min-width: 1170px) {
+    
     .cd-timeline-content .cd-read-more,
     .cd-timeline-content .cd-date {
       font-size: 14px;
       font-size: 0.875rem;
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1170px) {
     .cd-timeline-content {
       color: white;
       margin-left: 0;

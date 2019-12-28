@@ -7,7 +7,7 @@
 
 body {
 	overflow-x: hidden;
-	background-color: #fff;
+	background-color: rgb(228, 228, 228) !important;
 }
 
 ul {
@@ -105,7 +105,7 @@ p {
 	height: 3px;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	background-color: #f4bc51;
+	background-color: #0091ea;
 }
 
 .left-banner-content .white-border-button {
@@ -114,7 +114,7 @@ p {
 
 .right-banner-content {
 	padding: 100px 45px;
-	background-color: #f4bc51;
+	background-color: #0091ea;
 	text-align: center;		
 	min-height: 680px;
 	height: 680px;
@@ -173,12 +173,12 @@ p {
 	background-color: #fff;
 	border-radius: 50%;
 	transition: all 0.5s;
-	color: #f4bc51;
+	color: #0091ea;
 	font-size: 17px;
 }
 
 .right-banner-content .social-icons li a:hover {
-	background-color: #d59b2b;
+	background-color: #0064b7;
 }
 
 
@@ -283,8 +283,8 @@ p {
 
 .events {
 	margin-top: 10px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 	background-image: url(../assets/images/events-bg.png);
 	background-repeat: no-repeat;
@@ -326,7 +326,7 @@ p {
 }
 
 .filter-categories ul li.active span {
-  color: #f4bc51;
+  color: #0091ea;
 }
 
 .project-item {
@@ -374,7 +374,7 @@ p {
 }
 
 .event-list ul li .date span {
-	background-color: #f4bc51;
+	background-color: #0091ea;
 	width: 80px;
 	height: 80px;
 	text-align: center;
@@ -446,13 +446,13 @@ p {
 .event-list .app span {
 	font-size: 13px;
 	font-weight: 600;
-	color: #f4bc51;
+	color: #0091ea;
 	display: inline-block;
 }
 
 
 .event-list .white-button a:hover {
-	background-color: #f4bc51;
+	background-color: #0091ea;
 	color: #fff;
 }
 
@@ -1099,7 +1099,7 @@ footer p em {
 	}
 
 	.event-list ul li .date span {
-		background-color: #f4bc51;
+		background-color: #0091ea;
 		width: 100%;
 		height: 80px;
 		text-align: center;

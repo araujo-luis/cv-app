@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
-
+import Typist from 'react-typist';
 const IntroduceYourself: FC = () => {
     return (
         <section className="banner" id="top">
@@ -12,8 +12,10 @@ const IntroduceYourself: FC = () => {
                             <div className="text-content">
                                 <h6>Hi!</h6>
                                 <div className="line-dec"></div>
-                                <h1>I'm Luis Araujo</h1>
-                                <h3>Computer Sciences Engineer</h3>
+                                <Typist>
+                                    <h1>I'm Luis Araujo</h1>
+                                    <h3>Computer Sciences Engineer</h3>
+                                </Typist>
                                 <div className="white-border-button">
                                     <a href="#" className="scroll-link" data-id="best-offer-section">Download CV</a>
                                 </div>
