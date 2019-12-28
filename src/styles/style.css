@@ -7,7 +7,6 @@
 
 body {
 	overflow-x: hidden;
-	background-color: rgb(228, 228, 228) !important;
 }
 
 ul {
@@ -197,17 +196,19 @@ p {
 	padding-right: 0px;
 	padding-left: 5px;
 }
-
+.university-margin:nth-child(1) {
+	margin-bottom: 60px;
+}
 .best-offer-left-content {
-	min-height: 550px;
-	height: 550px;
-	padding-top: 175px;
-	padding-bottom: 175px;
+	height: 100%;
 	text-align: center;
-	background-image: url(../assets/images/best-offer-bg.png);
+	background-image: url(../assets/images/bestofferbg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .best-offer-left-content .icon {
@@ -219,6 +220,8 @@ p {
 	background-color: transparent;
 	border: 1px solid #fff;
 	border-radius: 50%;
+	color: white;
+	font-size: 9em;
 }
 
 .best-offer-left-content h4 {
@@ -232,8 +235,6 @@ p {
 .best-offer-right-content {
 	background-color: #eee;
 	padding: 80px 40px;
-	min-height: 550px;
-	height: 550px;
 }
 
 .best-offer-right-content h2 {
@@ -918,8 +919,8 @@ footer p em {
 	.best-offer-right-content {
 		background-color: #eee;
 		padding: 30px 30px;
-		min-height: 550px;
-		height: auto;
+		
+		
 	}
 
 	.best-offer-right-content .pink-button {

@@ -4,6 +4,7 @@ import { faCode, faCalendar } from '@fortawesome/free-solid-svg-icons'
 import experiences from '../../data/experiences';
 
 interface ExperienceData {
+    id: number;
     company: string
     companyLogo: string
     position: string
@@ -23,7 +24,7 @@ const Experience: FC = () => {
             <div className="content-wrapper">
             <section id="cd-timeline" className="cd-container">
             {experiences.data.map((item: ExperienceData) => (
-                <div className="cd-timeline-block">
+                <div className="cd-timeline-block" key={item.id}>
                     <div className="cd-timeline-img cd-location"></div>
                     <div className="cd-timeline-content">
                         <h2>{item.company}</h2>
@@ -37,8 +38,8 @@ const Experience: FC = () => {
                         </div>
                         <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
                         <ul className="content-skills">
-                            {item.tools.map(tool => (
-                                <li>{tool}</li>
+                            {item.tools.map((tool, index) => (
+                                <li key={index}>{tool}</li>
                             ))}
                         </ul>
                     </div>

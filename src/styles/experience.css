@@ -8,7 +8,7 @@ html, body {
   .cd-container {
     width: 90%;
     margin: 0 auto;
-    background: #eee;
+    background: #eeeeee87;
     padding: 0 10%;
   }
   
@@ -37,7 +37,7 @@ html, body {
     left: 25px;
     height: 83%;
     width: 4px;
-    background: #388ed3;
+    background: #666666;
   }
   
   @media only screen and (min-width: 1170px) {

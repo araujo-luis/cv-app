@@ -2,6 +2,7 @@ const experiences = {
     "title": "Experience",
     "data": [
         {
+            "id": 1,
             "company": "Laureate International Universities",
             "companyLogo":"",
             "position": "Appication Developer",
@@ -12,6 +13,7 @@ const experiences = {
             "tools": ["Oracle", "SQL Developer", "Oracle VCBS", "Oracle Integration Cloud"]
         },
         {
+            "id": 2,
             "company": "Alfatec Sistemas",
             "companyLogo":"",
             "position": "Developer",
@@ -22,6 +24,7 @@ const experiences = {
             "tools": ["Spring", "Angular 7", "MS-SQL Server", "Hibernate", "Elastic Search", "Git", "Source Tree", "Enterprise Architect", "RabbitMQ", "Scrum"]
         },
         {
+            "id": 3,
             "company": "Laureate International Universities",
             "companyLogo":"",
             "position": "Instructional Technologist",
@@ -32,6 +35,7 @@ const experiences = {
             "tools": ["HTML", "CSS", "Javascript", "Ruby on Rails", "Blackboard", "PostgreSQL"]
         },
         {
+            "id": 4,
             "company": "Central American Bank for Economic Integration (CABEI)",
             "companyLogo":"",
             "position": "Intern",
@@ -42,6 +46,7 @@ const experiences = {
             "tools": ["HTML", "CSS", "Javascript", "Ionic", "Blackboard", "Moodle"]
         },
         {
+            "id": 5,
             "company": "Premper Web Agency",
             "companyLogo":"",
             "position": "Web Developer",
