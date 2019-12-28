@@ -24,8 +24,10 @@ const Education: FC = () => {
             <div className="row">
                 <div className="col-md-4">
                     <div className="best-offer-left-content">
-                        <div className="icon"><FontAwesomeIcon icon={faUniversity}/></div>
+                        <div className="icon"><FontAwesomeIcon icon={faUniversity}/>
                         <h4>Education</h4>
+                        </div>
+                        
                     </div>
                 </div>
                 <div className="col-md-8">
