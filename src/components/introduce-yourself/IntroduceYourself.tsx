@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebookF, faLinkedin, faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
 
 const IntroduceYourself: FC = () => {
     return (
