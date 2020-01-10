@@ -28,7 +28,15 @@ const IntroduceYourself: FC = () => {
                             <h2>Avalon</h2>
                             <span>Creative <em>HTML</em> Template</span>
                             <div className="line-dec"></div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et sem blandit, rhoncus ante a, varius libero. Cras elementum tincidunt ullamcorper. Sed vehic ula dictum tortor ut aliquet. ”</p>
+                            
+                            <p>
+                            <ul>
+                                <li>Email: luis.araujo@laureate.net</li>
+                                <li>Phone: +504 9969 9606</li>
+                                <li>Date of Birth: Oct 22 1993</li>
+                                <li>Nationality: Honduran</li>
+                            </ul>
+                            </p>
                             <ul className="social-icons">
                                 <li><a href="https://www.linkedin.com/in/l222p/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                                 <li><a href="https://github.com/l222p" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
@@ -44,3 +52,4 @@ const IntroduceYourself: FC = () => {
 }
 
 export default IntroduceYourself;
+

@@ -79,7 +79,7 @@ p {
 	background-size: cover;
 	background-position: center center;
 	min-height: 680px;
-	height: 680px;
+	height: 100vh;
 }
 
 .left-banner-content h6 {
@@ -116,7 +116,7 @@ p {
 	background-color: #0091ea;
 	text-align: center;		
 	min-height: 680px;
-	height: 680px;
+	height: 100vh;
 }
 
 .right-banner-content h2 {
@@ -863,7 +863,7 @@ footer p em {
 	background-size: cover;
 	background-position: center center;
 	min-height: 680px;
-	height: 680px;
+	height: 100vh;
 }
 
 	.banner .col-md-8 {

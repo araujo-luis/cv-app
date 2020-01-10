@@ -20,13 +20,13 @@ const Experience: FC = () => {
 
     return (
         <section className="experience-bg" id="best-offer-section">
-                
+
             <div className="container-fluid">
 
                 <div className="row example-basic">
 
-                    <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 center">
-                    <h1 className="experience-title">Experience</h1>
+                    <div className="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-2 col-md-10 center">
+                        <h1 className="experience-title">Experience</h1>
                         <ul className="timeline">
                             {experiences.data.map(item => (
                                 <li className="timeline-item">
@@ -38,6 +38,11 @@ const Experience: FC = () => {
                                         <h2 className="timeline-title">{item.position}</h2>
                                         <h3 className="timeline-title">{item.company}</h3>
                                         <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
+                                        <div className="content-skills">
+                                            {item.tools.map((tool, index) => (
+                                                <a key={index}>{tool}</a>
+                                            ))}
+                                        </div>
                                     </div>
                                 </li>
                             ))}
