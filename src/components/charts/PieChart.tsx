@@ -1,41 +1,19 @@
 import React, { FC } from 'react';
-import { Doughnut } from 'react-chartjs-2';
 
-const Chart = require('react-chartjs-2').Chart;
+import ReactMinimalPieChart from 'react-minimal-pie-chart'
+
 interface PieChartOptions {
     data: number
     title: string
 }
 const PieChart: FC<PieChartOptions> = (props) => {
 
-    var originalDoughnutDraw = Chart.controllers.doughnut.prototype.draw;
-    Chart.helpers.extend(Chart.controllers.doughnut.prototype, {
-        draw: function () {
-            originalDoughnutDraw.apply(this, arguments);
-
-            var chart = this.chart;
-            var width = chart.chart.width,
-                height = chart.chart.height,
-                ctx = chart.chart.ctx;
-
-            var fontSize = (height / 114).toFixed(2);
-            ctx.font = fontSize + "em sans-serif";
-            ctx.textBaseline = "middle";
-
-            var sum = 0;
-            
-            sum += chart.config.data.datasets[0].data[0];
-            var text = sum,
-                textX = Math.round((width - ctx.measureText(text).width) / 2),
-                textY = height / 1.6;
-            ctx.fillText(text, textX, textY);
-        }
-    });
+  
 
     const data = {
         datasets: [
             {
-                data: [props.data, 100 - props.data ],
+                data: [props.data, 100 - props.data],
                 backgroundColor: ["#0091ea", "#78909c"],
             }
         ],
@@ -51,11 +29,49 @@ const PieChart: FC<PieChartOptions> = (props) => {
     }
     return (
         <div>
-            <Doughnut
-                data={data}
-                width={100}
-                height={50}
-                options={options} />
+            
+            <ReactMinimalPieChart
+                 animate
+                 animationDuration={500}
+                 animationEasing="ease-out"
+                cx={50}
+                cy={50}
+                data={[
+                    {
+                        color: '#d0d0d0',
+                        title: 'One',
+                        value: 20
+                    },
+                    {
+                        color: '#0091ea',
+                        title: 'Two',
+                        value: 80
+                    },
+                ]}
+                label
+                labelPosition={0}
+                labelStyle={{
+                    fontFamily: 'Open Sans',
+                    fontSize: '20px',
+                    fontWeight: 200
+                  }}
+                lengthAngle={360}
+                lineWidth={15}
+                onClick={undefined}
+                onMouseOut={undefined}
+                onMouseOver={undefined}
+                paddingAngle={0}
+                radius={50}
+                rounded
+                startAngle={200}
+                viewBoxSize={[
+                    80,
+                    80
+                ]}
+            />
+
+
+
         </div>
     );
 }

@@ -1,5 +1,15 @@
 .skills{
-    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0px;
+    float: none;
+    width: 152px;
+}
+.skills h4{
+
+    padding: 10px;
+    font-weight: 700;
 }
 
 .chart-inline{
@@ -8,14 +18,14 @@
 
 .section-banner-box {
     position: relative;
-    padding: 100px 0px;
+    padding: 70px 0px;
     color: #ffffff;
     text-align: center;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    background: url(../assets/images/5.jpg);
+    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/01/Palm-Trees-lining-a-street-in-Valencia-Spain.jpg);
 }
 
 
@@ -40,10 +50,11 @@
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .section-banner-box h1 {
-    font-size: 80px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: 900;
     color: #ffffff;
@@ -54,7 +65,7 @@
 .section-banner-box h1 .bg-text {
     position: relative;
     display: inline-block;
-    background: #b0ed60;
+    background: #0091ea;
     padding: 0px 10px;
     margin: 0px -5px;
 }
@@ -70,7 +81,7 @@
     left: 0px;
     bottom: -3px;
     width: 24px;
-    border-bottom: 5px solid #b0ed60;
+    border-bottom: 5px solid #0091ea;
 }
 
 @media only screen and (max-width: 1023px){

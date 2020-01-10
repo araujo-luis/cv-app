@@ -7,23 +7,20 @@ const Skills: FC = () => {
 
     return (
         <section className="best-offer" id="best-offer-section">
-            
-            
-            <div className="section-banner-box">
-            	<div className="auto-container">
-                	<div className="title-box"><h1><span className="bg-text">My</span> <span className="lined-text">Skills</span></h1></div>
+
+            <div className="container">
+                <div className="row">
+                    {skills.map(item => (
+                        <div className=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea chart-inline">
+                            <div className=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills">
+                                <PieChart data={item.knowledge} title={item.title} />
+                            <h4>{item.title}</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-
-
-            <div className="skills">
-                Skills
-           </div>
-            {skills.map(item => (
-                <div className="col-md-3 chart-inline">
-                <PieChart data={item.knowledge} title={item.title} />
-                </div>
-            ))}
         </section>
     );
 }

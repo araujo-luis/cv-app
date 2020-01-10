@@ -28,7 +28,7 @@ const experiences = {
             "company": "Laureate International Universities",
             "companyLogo":"",
             "position": "Instructional Technologist",
-            "location": "Valencia, Spain",
+            "location": "Tegucigalpa, Honduras",
             "fromDate": "Dec 2016",
             "toDate": "Sep 2018",
             "description": "Responsible for supporting implementation of products related to Laureate Education online classes (e-Learning).           <ul>            <li> Build of courses for Laureate network. </li><li> Develop solutions to support effective use of product and process innovation. </li><li> Provide expert knowledge on Blackboard and other LMS platforms, as needed. </li>            <li> Maintain knowledge of current and future trends in learning technology.</li>            </ul>",

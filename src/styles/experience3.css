@@ -3,7 +3,7 @@
 }
 
 .bio_section .content-container {
-  padding: 90px 0px 100px;
+  padding: 40px 0px 10px;
 }
 .auto-container {
   position: static;
@@ -48,7 +48,11 @@
   min-height: 80px;
   margin-bottom: 45px;
 }
-
+.bio_section .timeline-column .col-header h2{
+  text-align: left;
+  font-size: 2.5em;
+  font-weight: bold;
+}
 .bio_section .timeline-column .col-header .icon-box {
   position: absolute;
   left: -47px;
@@ -78,7 +82,7 @@
 .bio_section .timeline-column .col-header .icon-box .icon-inner:after {
   content: "";
   position: absolute;
-  background: #b0ed60;
+  background: #0d47a1;
   display: block;
   left: 0px;
   top: 0px;
@@ -94,6 +98,7 @@
 .bio_section .timeline-column .timeline-block {
   position: relative;
   margin-bottom: 42px;
+  text-align: left;
 }
 
 .bio_section .timeline-column .timeline-block .inner-box {
@@ -120,7 +125,7 @@
   top: 4px;
   width: 11px;
   height: 11px;
-  background: #b0ed60;
+  background: #0d47a1;
   border-radius: 50%;
 }
 

@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserGraduate, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import experiences from '../../data/experiences';
+import education from '../../data/education';
 
 interface ExperienceData {
     id: number;
@@ -22,11 +23,7 @@ const Experience3: FC = () => {
 
         <section className="events bio_section" id="events-section">
             <div className="content-container">
-                <div className="auto-container">
-
-                    <div className="title-style-one">
-                        <h2>Work History</h2>
-                    </div>
+                <div className="auto-container"> 
 
                     <div className="row clearfix">
 
@@ -35,7 +32,7 @@ const Experience3: FC = () => {
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-briefcase-1"><FontAwesomeIcon icon={faBriefcase} /></span></div></div></div> <h2>Employment</h2></div>
 
                                 {experiences.data.map(item => (
-                                    <div className="timeline-block">
+                                    <div key={item.id} className="timeline-block">
                                         <div className="inner-box">
                                             <div className="date">{item.fromDate} - {item.toDate}</div>
                                             <h4>{item.company}</h4>
@@ -46,9 +43,6 @@ const Experience3: FC = () => {
                                     </div>
                                 ))}
 
-
-
-
                             </div>
                         </div>
 
@@ -57,40 +51,20 @@ const Experience3: FC = () => {
                             <div className="inner">
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-graduation-cap"><FontAwesomeIcon icon={faUserGraduate} /> </span></div></div></div> <h2>Education</h2></div>
 
-
-                                <div className="timeline-block">
+                                {education.data.map(item => (
+                                    <div key={item.id} className="timeline-block">
                                     <div className="inner-box">
-                                        <div className="date">2006</div>
-                                        <h4>Software Engineering</h4>
-                                        <div className="text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. </div>
+                                <div className="date">{item.dateFrom} - {item.dateTo}</div>
+                                        <h4>{item.degreeTitle}</h4>
+                                        <h3>{item.universityName}</h3>
+                                        <div className="text">{item.description}</div>
                                     </div>
                                 </div>
-
-
-                                <div className="timeline-block">
-                                    <div className="inner-box">
-                                        <div className="date">2006 - 2010</div>
-                                        <h4>Copmuter Science</h4>
-                                        <div className="text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. </div>
-                                    </div>
-                                </div>
-
-
-                                <div className="timeline-block">
-                                    <div className="inner-box">
-                                        <div className="date">2010 - 2012</div>
-                                        <h4>Auto Mobiles</h4>
-                                        <div className="text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. </div>
-                                    </div>
-                                </div>
+                                ))}
 
                             </div>
                         </div>
-
                     </div>
-
-
-                    <div className="text-center btn-box"><a href="#" className="theme-btn btn-style-two">Download Resume</a></div>
 
                 </div>
             </div>
