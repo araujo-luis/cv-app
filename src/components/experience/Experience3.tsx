@@ -5,6 +5,7 @@ import experiences from '../../data/experiences';
 import education from '../../data/education';
 import certifications from '../../data/certifications';
 
+const Fade = require('react-reveal/Fade');
 interface ExperienceData {
     id: number;
     company: string
@@ -24,7 +25,7 @@ const Experience3: FC = () => {
 
         <section className="events bio_section" id="events-section">
             <div className="content-container">
-                <div className="auto-container"> 
+                <div className="auto-container">
 
                     <div className="row clearfix">
 
@@ -33,39 +34,42 @@ const Experience3: FC = () => {
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-briefcase-1"><FontAwesomeIcon icon={faBriefcase} /></span></div></div></div> <h2>Employment</h2></div>
 
                                 {experiences.data.map(item => (
-                                    <div key={item.id} className="timeline-block">
-                                        <div className="inner-box">
-                                            <div className="date">{item.fromDate} - {item.toDate}</div>
-                                            <h4>{item.company}</h4>
-                                            <h3>{item.location}</h3>
-                                            <div className="text" dangerouslySetInnerHTML={{ __html: item.description }}></div>
-                                            <div className="content-skills">
-                                            {item.tools.map((tool, index) => (
-                                                <a key={index}>{tool}</a>
-                                            ))}
+                                    <Fade left>
+                                        <div key={item.id} className="timeline-block">
+                                            <div className="inner-box">
+                                                <div className="date">{item.fromDate} - {item.toDate}</div>
+                                                <h4>{item.company}</h4>
+                                                <h3>{item.location}</h3>
+                                                <div className="text" dangerouslySetInnerHTML={{ __html: item.description }}></div>
+                                                <div className="content-skills">
+                                                    {item.tools.map((tool, index) => (
+                                                        <a key={index}>{tool}</a>
+                                                    ))}
+                                                </div>
+                                            </div>
                                         </div>
-                                        </div>
-                                    </div>
+                                    </Fade>
                                 ))}
 
                             </div>
                         </div>
-
 
                         <div className="timeline-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
                             <div className="inner">
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-graduation-cap"><FontAwesomeIcon icon={faUserGraduate} /> </span></div></div></div> <h2>Education</h2></div>
 
                                 {education.data.map(item => (
-                                    <div key={item.id} className="timeline-block">
-                                    <div className="inner-box">
-                                <div className="date">{item.dateFrom} - {item.dateTo}</div>
-                                        <h4>{item.degreeTitle}</h4>
-                                        <h3>{item.universityName}</h3>
-                                        <div className="text">{item.description}</div>
-                                        
-                                    </div>
-                                </div>
+                                    <Fade right>
+                                        <div key={item.id} className="timeline-block">
+                                            <div className="inner-box">
+                                                <div className="date">{item.dateFrom} - {item.dateTo}</div>
+                                                <h4>{item.degreeTitle}</h4>
+                                                <h3>{item.universityName}</h3>
+                                                <div className="text">{item.description}</div>
+
+                                            </div>
+                                        </div>
+                                    </Fade>
                                 ))}
 
                             </div>
@@ -73,17 +77,19 @@ const Experience3: FC = () => {
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-graduation-cap"><FontAwesomeIcon icon={faUserGraduate} /> </span></div></div></div> <h2>Courses & Certifications</h2></div>
 
                                 {certifications.data.map(item => (
-                                    <div key={item.id} className="timeline-block">
-                                    <div className="inner-box">
-                                <div className="date">{item.dateFrom}</div>
-                                        <h4>{item.degreeTitle}</h4>
-                                        <h3>{item.universityName}</h3>
-                                        <div className="text">{item.description}</div>
-                                        <h3 className="credential">
-                                            <a href={item.url} target="_blank" >See credential</a>
-                                        </h3>
-                                    </div>
-                                </div>
+                                    <Fade right>
+                                        <div key={item.id} className="timeline-block">
+                                            <div className="inner-box">
+                                                <div className="date">{item.dateFrom}</div>
+                                                <h4>{item.degreeTitle}</h4>
+                                                <h3>{item.universityName}</h3>
+                                                <div className="text">{item.description}</div>
+                                                <h3 className="credential">
+                                                    <a href={item.url} target="_blank" >See credential</a>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </Fade>
                                 ))}
 
                             </div>
