@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserGraduate, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import experiences from '../../data/experiences';
 import education from '../../data/education';
+import certifications from '../../data/certifications';
 
 interface ExperienceData {
     id: number;
@@ -38,7 +39,11 @@ const Experience3: FC = () => {
                                             <h4>{item.company}</h4>
                                             <h3>{item.location}</h3>
                                             <div className="text" dangerouslySetInnerHTML={{ __html: item.description }}></div>
-
+                                            <div className="content-skills">
+                                            {item.tools.map((tool, index) => (
+                                                <a key={index}>{tool}</a>
+                                            ))}
+                                        </div>
                                         </div>
                                     </div>
                                 ))}
@@ -58,6 +63,25 @@ const Experience3: FC = () => {
                                         <h4>{item.degreeTitle}</h4>
                                         <h3>{item.universityName}</h3>
                                         <div className="text">{item.description}</div>
+                                        
+                                    </div>
+                                </div>
+                                ))}
+
+                            </div>
+                            <div className="inner">
+                                <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-graduation-cap"><FontAwesomeIcon icon={faUserGraduate} /> </span></div></div></div> <h2>Courses & Certifications</h2></div>
+
+                                {certifications.data.map(item => (
+                                    <div key={item.id} className="timeline-block">
+                                    <div className="inner-box">
+                                <div className="date">{item.dateFrom}</div>
+                                        <h4>{item.degreeTitle}</h4>
+                                        <h3>{item.universityName}</h3>
+                                        <div className="text">{item.description}</div>
+                                        <h3 className="credential">
+                                            <a href={item.url} target="_blank" >See credential</a>
+                                        </h3>
                                     </div>
                                 </div>
                                 ))}

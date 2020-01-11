@@ -22,7 +22,8 @@ const universities = {
             description: "The Computer Sciences Engineer is capable of identifying, designing and implementing suitable technological solutions in any business environment. It studies the development of automated systems and the use of programming languages; Similarly, it focuses on the analysis, design and use of hardware and software to achieve the implementation of the most advanced industrial and telematic applications",
             image: "",
             url:"https://www.unicah.edu/programaComputacion.html"
-        }
+        },
+
     ]
 }
 

@@ -4,6 +4,7 @@ import IntroduceYourself from './components/introduce-yourself/IntroduceYourself
 import Experience3 from './components/experience/Experience3';
 import Skills from './components/skills/Skills';
 import Subheader from './components/Subheader/Subheader';
+import Contact from './components/contact/Contact';
 const App:FC = ()=> {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ const App:FC = ()=> {
       <Experience3/>
       <Subheader highlitedText="My" text="Skills"/>
       <Skills/>
+      <Contact/>
     </div>
   );
 }
