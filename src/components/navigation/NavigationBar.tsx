@@ -2,6 +2,7 @@ import React, { FC, useState, useEffect } from 'react';
 import { CSSTransition } from "react-transition-group";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navigation: FC = () => {
     const [isNavVisible, setNavVisibility] = useState(false);
@@ -39,11 +40,10 @@ const Navigation: FC = () => {
                 unmountOnExit
             >
                 <nav className="Nav">
-                    <a href="#my-resume">My Resume</a>
-                    <a href="#my-skills">My Skills</a>
-                    <a href="#my-portfolio">My Portfolio</a>
-                    <a href="#contact-me">Contact Me</a>
-
+                    <AnchorLink href='#my-resume'>My Resume</AnchorLink>
+                    <AnchorLink href='#my-skills'>My Skills</AnchorLink>
+                    <AnchorLink href='#my-portfolio'>My Portfolio</AnchorLink>
+                    <AnchorLink href='#contact-me'>Contact Me</AnchorLink>
                 </nav>
             </CSSTransition>
             <button onClick={toggleNav} className="Burger">

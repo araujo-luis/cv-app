@@ -16,7 +16,7 @@ const Skills: FC = () => {
                          <Fade top opposite>
                         <div className=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea chart-inline">
                             <div className=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills">
-                                <PieChart data={item.knowledge} title={item.title} />
+                                <PieChart value={item.value} title={item.title} />
                             <h4>{item.title}</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                             </div>
