@@ -6,6 +6,7 @@ import Skills from './components/skills/Skills';
 import Subheader from './components/Subheader/Subheader';
 import Contact from './components/contact/Contact';
 import NavigationBar from './components/navigation/NavigationBar';
+import Portfolio from './components/portfolio/Portfolio';
 const App:FC = ()=> {
   return (
     <div className="App">
@@ -15,6 +16,8 @@ const App:FC = ()=> {
       <Experience3/>
       <Subheader highlitedText="My" text="Skills" id="my-skills"/>
       <Skills/>
+      <Subheader highlitedText="My" text="Portfolio" id="my-portfolio"/>
+      <Portfolio/>
       <Contact/>
     </div>
   );

@@ -1,13 +1,10 @@
 import React, { FC } from 'react';
 import PieChart from '../charts/PieChart';
 import skills from '../../data/skills';
-
 const Fade = require('react-reveal/Fade');
 
 const Skills: FC = () => {
-
-
-    return (
+    return ( 
         <section className="best-offer" id="best-offer-section">
 
             <div className="container">
