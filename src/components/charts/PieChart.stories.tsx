@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 const data = {
     datasets: [

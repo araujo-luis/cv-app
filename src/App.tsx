@@ -7,6 +7,7 @@ import Subheader from './components/Subheader/Subheader';
 import Contact from './components/contact/Contact';
 import NavigationBar from './components/navigation/NavigationBar';
 import Portfolio from './components/portfolio/Portfolio';
+import Footer from './components/footer/Footer';
 const App:FC = ()=> {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ const App:FC = ()=> {
       <Subheader highlitedText="My" text="Portfolio" id="my-portfolio"/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
+
 import Typist from 'react-typist';
+import SocialIcons from './SocialIcons';
 const IntroduceYourself: FC = () => {
     return (
         <section className="banner" id="top">
@@ -37,12 +37,7 @@ const IntroduceYourself: FC = () => {
                                 <li>Nationality: Honduran</li>
                             </ul>
                             </p>
-                            <ul className="social-icons">
-                                <li><a href="https://www.linkedin.com/in/l222p/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                                <li><a href="https://github.com/l222p" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
-                                <li><a href="https://dev.to/l222p" target="_blank"><FontAwesomeIcon icon={faDev} /></a></li>
-                                
-                            </ul>
+                           <SocialIcons/>
                         </div>
                     </div>
                 </div>

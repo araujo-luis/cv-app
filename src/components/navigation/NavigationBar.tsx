@@ -32,7 +32,7 @@ const Navigation: FC = () => {
 
     return (
         <header className="Header">
-            <img className="Logo" alt="logo" />
+            
             <CSSTransition
                 in={!isSmallScreen || isNavVisible}
                 timeout={350}

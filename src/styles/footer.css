@@ -1,0 +1,16 @@
+.footer {
+    background: #585f73;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    margin: 0 auto;
+}
+
+.footer .love-icon {
+    color: red;
+}

@@ -1,5 +1,6 @@
 .contactDetails {
     background: #474d5d9e;
+    margin-top: 40px;
 }
 
 .contactDetails h4 {
@@ -45,4 +46,59 @@
     text-align: center;
     float: right;
     margin: 0px;
+}
+.contact-container {
+    padding: 50px;
+}
+
+.contact-container h3 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact-info ul {
+    text-align: justify;
+    line-height: 35px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.contact-info {
+    padding: 10px 15px;
+}
+.contact-info p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-info ul.icons svg {
+    color: #0091ea;
+    margin-right: 15px;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding: 10px;
+}
+.social-icons li a {
+    font-size: 40px;
+    color: #0091ea;
+}
+.contact-info .icons a {
+    color: white;
+}
+
+.contact-info .icons a:hover {
+    text-decoration: none;
+}
+
+.contact-info .social-icons {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .contact-info p {
+        padding-top: 60px;
+    }
 }

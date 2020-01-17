@@ -1,51 +1,51 @@
 import React, { FC } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-const Contact: FC = (props) => {
 
+import MapContainer from './MapContainer';
+import SocialIcons from '../introduce-yourself/SocialIcons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLinkedin, faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faBirthdayCake, faGlobe } from '@fortawesome/free-solid-svg-icons';
+const Contact: FC = (props) => {
+    const defaultProps = {
+        center: {
+            lat: 14.0650,
+            lng: -87.1715
+        },
+        zoom: 13
+    };
     return (
         <section className="best-offer contact" id="best-offer-section">
             <div className="section-banner-box">
                 <div className="auto-container">
                     <div className="title-box"><h1><span className="lined-text">Contact</span><span className="bg-text">Me</span> </h1></div>
 
-                    <div className="contactDetails">
-                        <div className="container">
+                    <div className="contactDetails container">
+                        <div className="row contact-container">
+                            <div className="col-md-6">
+                                <div className="contact-info">
+                                    <h3>Contact Information</h3>
+                                    <ul className='icons'>
+                                        <li> <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:luis.araujo@laureate.net">luis.araujo@laureate.net</a></li>
+                                        <li> <FontAwesomeIcon icon={faBirthdayCake} /> Oct 22 1993</li>
+                                        <li> <FontAwesomeIcon icon={faGlobe} /> Honduran</li>
+                                    </ul>
+                                    
+                                    <p>You can also find me at:</p>
+                                    
+                                    <SocialIcons />
 
-
-                            <div className="col-xs-12 col-sm-3 col-md-4 col-lg-4">
-                                <h4>Contact details</h4>
-                                <p> <i className="fa fa-map-marker fa-lg"></i> Collins Street West Victoria 8007 Australia</p>
-                                <p> <i className="fa fa-mobile fa-lg"></i> +1800 1234 56789</p>
-                                <p> <i className="fa fa-envelope-o "></i> <a href="mailto:support@websitename.com">support@websitename.com</a></p>
-                                <p> <i className="fa fa-link "></i> <a href="www.websitename.com">www.websitename.com</a></p>
+                                </div>
                             </div>
-
-
-
-                            <div className="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
-                                <h4>Shoot a message!</h4>
-                                <div id="message"></div>
-                                <form method="post" action="php/contact.php" name="cform" id="cform">
-                                    <input name="name" id="name" type="text" className="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." />
-                                    <input name="email" id="email" type="email" className=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Your email..." />
-                                    <textarea name="comments" id="comments" className="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
-
-                                    <input type="submit" id="submit" name="send" className="submitBnt" value="Send message" />
-                                    <div id="simple-msg"></div>
-                                </form>
+                            <div className="col-md-6">
+                                <h3>My Location</h3>
+                                <MapContainer center={defaultProps.center} zoom={defaultProps.zoom} />
                             </div>
-
-
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </section>
-        
+
     );
 }
 
