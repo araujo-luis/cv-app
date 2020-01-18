@@ -17,7 +17,7 @@ const IntroduceYourself: FC = () => {
                                     <h3>Computer Sciences Engineer</h3>
                                 </Typist>
                                 <div className="white-border-button">
-                                    <a href="#" className="scroll-link" data-id="best-offer-section">Download CV</a>
+                                    <a href="../../assets/files/CV_Luis_Araujo.pdf" download className="scroll-link" data-id="best-offer-section">Download CV</a>
                                 </div>
                             </div>
                         </div>
@@ -25,19 +25,24 @@ const IntroduceYourself: FC = () => {
                     <div className="col-md-4">
                         <div className="right-banner-content">
                             <div className="logo"><a href="index.html"><img src="img/logo.png" alt="" /></a></div>
-                            <h2>Avalon</h2>
-                            <span>Creative <em>HTML</em> Template</span>
+                            <h2>Luis Araujo</h2>
                             <div className="line-dec"></div>
+                            <p>&nbsp;</p>
+                            <p>Computer Sciences Engineer focused on Web Development and Cloud Computing. Able to identify, design and implement appropriate technological solutions in a business environment. Knowledge:</p>
+                            <p>&nbsp;</p>
                             
-                            <p>
                             <ul>
-                                <li>Email: luis.araujo@laureate.net</li>
-                                <li>Phone: +504 9969 9606</li>
-                                <li>Date of Birth: Oct 22 1993</li>
-                                <li>Nationality: Honduran</li>
+                                <li><p>Database engines: MS-SQL Server, MySQL and MongoDB.</p></li>
+                                <li><p>Front End: JavaScript, HTML5 and CSS3.</p></li>
+                                <li><p>Back End: Java, PHP, NodeJS and Python.</p></li>
+                                <li><p>Administration of LINUX Servers and Windows Server.</p></li>
+                                <li><p>Cloud Computing with OpenStack and Windows Azure.</p></li>
+                                <li><p>Development based on Microservices: Docker, Docker Swarm, Docker Machine.</p></li>
                             </ul>
-                            </p>
-                           <SocialIcons/>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <SocialIcons />
+                            
                         </div>
                     </div>
                 </div>

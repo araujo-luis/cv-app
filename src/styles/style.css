@@ -147,20 +147,25 @@ p {
 }
 
 .right-banner-content p {
-	font-style: italic;
 	font-size: 13px;
 	color: #fff;
+	text-align: justify;
 }
 
 .right-banner-content .social-icons {
-	margin-top: 40px;
 	padding: 0;
-	list-style: none;
+
 }
 
 .right-banner-content .social-icons li {
 	display: inline-block;
 	margin: 0px 3px;
+}
+.right-banner-content ul {
+	list-style: outside;
+	color: white;
+	padding-left: 15px;
+
 }
 
 .right-banner-content .social-icons li a {
@@ -198,7 +203,7 @@ p {
 .best-offer-left-content {
 	height: 100%;
 	text-align: center;
-	background-image: url(../assets/images/bestofferbg.png);
+	/* background-image: url(../assets/images/bestofferbg.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -283,7 +288,7 @@ p {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
-	background-image: url(../assets/images/events-bg.png);
+	/* background-image: url(../assets/images/events-bg.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -478,7 +483,7 @@ p {
 
 .testimonial-image {
 	text-align: center;
-	background-image: url(../assets/images/testimonial-left-image.png);
+	/* background-image: url(../assets/images/testimonial-left-image.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -491,7 +496,7 @@ p {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	text-align: center;
-	background-image: url(../assets/images/testimonial-bg.png);
+	/* background-image: url(../assets/images/testimonial-bg.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -566,7 +571,7 @@ p {
 	padding-top: 0vh;
 	padding-bottom: 0vh;
 	text-align: center;
-	background-image: url(../assets/images/services-bg.png);
+	/* background-image: url(../assets/images/services-bg.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -724,7 +729,7 @@ transition-delay: 0.3s;
 	padding-left: 120px;
 	padding-right: 120px;
 	text-align: center;
-	background-image: url(../assets/images/contact-bg.png);
+	/* background-image: url(../assets/images/contact-bg.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -791,7 +796,7 @@ transition-delay: 0.3s;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	text-align: center;
-	background-image: url(../assets/images/contact-right-bg.png);
+	/* background-image: url(../assets/images/contact-right-bg.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;

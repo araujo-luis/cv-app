@@ -3,9 +3,8 @@ import React, { FC } from 'react';
 import MapContainer from './MapContainer';
 import SocialIcons from '../introduce-yourself/SocialIcons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faLinkedin, faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone, faBirthdayCake, faGlobe } from '@fortawesome/free-solid-svg-icons';
-const Contact: FC = (props) => {
+import { faEnvelope, faBirthdayCake, faGlobe } from '@fortawesome/free-solid-svg-icons';
+const Contact: FC = () => {
     const defaultProps = {
         center: {
             lat: 14.0650,
@@ -14,7 +13,7 @@ const Contact: FC = (props) => {
         zoom: 13
     };
     return (
-        <section className="best-offer contact" id="best-offer-section">
+        <section className="best-offer contact" id="contact-me">
             <div className="section-banner-box">
                 <div className="auto-container">
                     <div className="title-box"><h1><span className="lined-text">Contact</span><span className="bg-text">Me</span> </h1></div>

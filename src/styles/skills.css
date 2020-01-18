@@ -25,7 +25,7 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/01/Palm-Trees-lining-a-street-in-Valencia-Spain.jpg);
+    background-image: url(../assets/images/bg.jpg);
 }
 
 
@@ -67,7 +67,7 @@
     display: inline-block;
     background: #0091ea;
     padding: 0px 10px;
-    margin: 0px -5px;
+    margin: 0px 10px;
 }
 
 .section-banner-box h1 .lined-text {

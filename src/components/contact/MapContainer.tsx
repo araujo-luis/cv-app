@@ -14,7 +14,6 @@ interface MapProps {
 const MapContainer : FC<MapProps> = (props) => {
    
     const apiKey = process.env.REACT_APP_API_KEY;
-       console.log(apiKey);
        
     return (
         <div style={{ height: '350px', width: '100%' }}>

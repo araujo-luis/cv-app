@@ -18,9 +18,6 @@ interface ExperienceData {
     tools: string[]
 }
 const Experience3: FC = () => {
-    //https://codepen.io/ygc/pen/AXzVya/
-
-
     return (
 
         <section className="events bio_section" id="events-section">
@@ -33,9 +30,9 @@ const Experience3: FC = () => {
                             <div className="inner">
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-briefcase-1"><FontAwesomeIcon icon={faBriefcase} /></span></div></div></div> <h2>Employment</h2></div>
 
-                                {experiences.data.map(item => (
-                                    <Fade left>
-                                        <div key={item.id} className="timeline-block">
+                                {experiences.data.map((item, index) => (
+                                    <Fade key={item.id} left>
+                                        <div className="timeline-block">
                                             <div className="inner-box">
                                                 <div className="date">{item.fromDate} - {item.toDate}</div>
                                                 <h4>{item.company}</h4>
@@ -43,7 +40,7 @@ const Experience3: FC = () => {
                                                 <div className="text" dangerouslySetInnerHTML={{ __html: item.description }}></div>
                                                 <div className="content-skills">
                                                     {item.tools.map((tool, index) => (
-                                                        <a key={index}>{tool}</a>
+                                                        <button key={index}>{tool}</button>
                                                     ))}
                                                 </div>
                                             </div>
@@ -59,8 +56,8 @@ const Experience3: FC = () => {
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-graduation-cap"><FontAwesomeIcon icon={faUserGraduate} /> </span></div></div></div> <h2>Education</h2></div>
 
                                 {education.data.map(item => (
-                                    <Fade right>
-                                        <div key={item.id} className="timeline-block">
+                                    <Fade key={item.id} right>
+                                        <div className="timeline-block">
                                             <div className="inner-box">
                                                 <div className="date">{item.dateFrom} - {item.dateTo}</div>
                                                 <h4>{item.degreeTitle}</h4>
@@ -77,15 +74,15 @@ const Experience3: FC = () => {
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-graduation-cap"><FontAwesomeIcon icon={faUserGraduate} /> </span></div></div></div> <h2>Courses & Certifications</h2></div>
 
                                 {certifications.data.map(item => (
-                                    <Fade right>
-                                        <div key={item.id} className="timeline-block">
+                                    <Fade key={item.id} right>
+                                        <div className="timeline-block">
                                             <div className="inner-box">
                                                 <div className="date">{item.dateFrom}</div>
                                                 <h4>{item.degreeTitle}</h4>
                                                 <h3>{item.universityName}</h3>
                                                 <div className="text">{item.description}</div>
                                                 <h3 className="credential">
-                                                    <a href={item.url} target="_blank" >See credential</a>
+                                                    <a href={item.url} rel="noopener noreferrer" target="_blank" >See credential</a>
                                                 </h3>
                                             </div>
                                         </div>

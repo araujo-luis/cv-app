@@ -51,7 +51,7 @@ const PieChart: FC<PieChartOptions> = (props) => {
                     80,
                     80
                 ]}
-            />4
+            />
         </div>
     );
 }
