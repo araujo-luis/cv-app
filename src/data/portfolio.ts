@@ -22,7 +22,7 @@ const portfolio = {
             "title": "GoVLC Mobile App",
             "description": "Xanaru",
             "image":"",
-            "url": "https://github.com/l222p/go-vlc-mobile-app",
+            "url": "https://github.com/l222p/govlc-mobile-app",
             "tools": ["xamarin", "spring-boot", "mysql-lite", "c#"]
         },
         {
