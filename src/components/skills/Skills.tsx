@@ -12,7 +12,7 @@ const Skills: FC = () => {
                     {skills.map((item, index) => (
                          <Fade key={index} top opposite>
                         <div className=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea chart-inline">
-                            <div className=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills">
+                            <div className=" col-xs-12 col-md-6 col-lg-6 skills">
                                 <PieChart value={item.value} title={item.title} />
                             <h4>{item.title}</h4>
                             <p>{item.description}</p>

@@ -27,9 +27,9 @@ const IntroduceYourself: FC = () => {
                             <div className="logo"><a href="index.html"><img src="img/logo.png" alt="" /></a></div>
                             <h2>Luis Araujo</h2>
                             <div className="line-dec"></div>
-                            <p>&nbsp;</p>
+                            
                             <p>Computer Sciences Engineer focused on Web Development and Cloud Computing. Able to identify, design and implement appropriate technological solutions in a business environment. Knowledge:</p>
-                            <p>&nbsp;</p>
+                            
                             
                             <ul>
                                 <li><p>Database engines: MS-SQL Server, MySQL and MongoDB.</p></li>
@@ -39,7 +39,7 @@ const IntroduceYourself: FC = () => {
                                 <li><p>Cloud Computing with OpenStack and Windows Azure.</p></li>
                                 <li><p>Development based on Microservices: Docker, Docker Swarm, Docker Machine.</p></li>
                             </ul>
-                            <p>&nbsp;</p>
+                            
                             <p>&nbsp;</p>
                             <SocialIcons />
                             

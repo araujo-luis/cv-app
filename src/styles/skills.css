@@ -108,3 +108,9 @@
     padding: 0px 15px;
     margin: 0 auto;
 }
+
+@media (max-width: 991px) {
+    .section-banner-box {
+        margin: 10px;
+    }
+}
