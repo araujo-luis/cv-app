@@ -17,7 +17,7 @@ const IntroduceYourself: FC = () => {
                                     <h3>Computer Sciences Engineer</h3>
                                 </Typist>                            
                                 <div className="white-border-button">
-                                    <a href="../../assets/files/CV_Luis_Araujo.pdf" download className="scroll-link" data-id="best-offer-section">Download CV</a>
+                                    <a href="https://cv-luis-araujo.s3.amazonaws.com/cv-luis-araujo.pdf" target="_blank" rel="noopener noreferrer" download className="scroll-link" data-id="best-offer-section">Download CV</a>
                                 </div>
                             </div>
                         </div>
