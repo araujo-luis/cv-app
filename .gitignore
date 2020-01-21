@@ -26,4 +26,4 @@ yarn-error.log*
 *.conf
 *.crt
 *.pem
-
+*.ca-bundle
