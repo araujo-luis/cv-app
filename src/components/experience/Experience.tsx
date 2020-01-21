@@ -28,7 +28,7 @@ const Experience: FC = () => {
 
                         <div className="timeline-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
                             <div className="inner">
-                                <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-briefcase-1"><FontAwesomeIcon icon={faBriefcase} /></span></div></div></div> <h2>Employment</h2></div>
+                                <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-briefcase-1"><FontAwesomeIcon icon={faBriefcase} /></span></div></div></div> <h2>Work Experience</h2></div>
 
                                 {experiences.data.map((item, index) => (
                                     <Fade key={item.id} left>
