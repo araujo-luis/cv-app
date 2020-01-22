@@ -24,7 +24,7 @@ const IntroduceYourself: FC = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="right-banner-content">
-                            <div className="logo"><a href="index.html"><img src="img/logo.png" alt="" /></a></div>
+                            <div className="logo"></div>
                             <h2>Luis Araujo</h2>
                             <div className="line-dec"></div>
                             
