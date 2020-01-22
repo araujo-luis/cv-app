@@ -4,7 +4,7 @@ const Portfolio: FC = () => {
     return (
         <section className="best-offer" id="best-offer-section">
 
-            <div className="row portfolio">
+            <div className="portfolio">
                 <ul className="surveys grid">
                     {portfolio.data.map(item => (
                         <div key={item.id} className="col-md-10 col-lg-8 center">

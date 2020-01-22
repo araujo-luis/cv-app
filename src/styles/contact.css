@@ -96,6 +96,10 @@
 .contact-info .social-icons {
     text-align: center;
 }
+.contact-info .icons li:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 @media (min-width: 768px) {
     .contact-info p {
