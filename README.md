@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/l222p/cv-app.svg?branch=master)](https://travis-ci.org/l222p/cv-app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Docker deployment
