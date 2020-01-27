@@ -13,7 +13,7 @@ import ReactGA from 'react-ga';
 import NotFound from './components/NotFound/NotFound';
 const App: FC = () => {
   const trackingId = process.env.REACT_APP_TRACKING_ID;
-  ReactGA.initialize(trackingId || '');
+  ReactGA.initialize(trackingId || '', { testMode: true });
   ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <BrowserRouter>
