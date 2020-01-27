@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/l222p/cv-app.svg?branch=master)](https://travis-ci.org/l222p/cv-app)
+[![Build Status](https://travis-ci.org/l222p/cv-app.svg?branch=master)](https://travis-ci.org/l222p/cv-app) [![CircleCI](https://camo.githubusercontent.com/bfd84ed5d0e5c8d97aea6d7a83aed84ba1a0b191/68747470733a2f2f636972636c6563692e636f6d2f67682f66616365626f6f6b2f72656163742e7376673f7374796c653d736869656c6426636972636c652d746f6b656e3d3a636972636c652d746f6b656e)](https://circleci.com/gh/l222p/cv-app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
