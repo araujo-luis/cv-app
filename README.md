@@ -6,8 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Install and Build on VM
 
- npm install
- npm run build
+```
+npm install
+npm run build
+```
 
 Build Docker Image: 
 
