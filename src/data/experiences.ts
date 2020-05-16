@@ -10,7 +10,7 @@ const experiences = {
             "fromDate": "Sep 2019",
             "toDate": "Present",
             "description": "<ul><li> Participate in all aspects of the Software Development Lifecycle (SDLC) including definition, design, implementation, testing, delivery and support.            </li><li> Design, code, test and debug integrations using Apache Camel and message services like RabbitMQ</li><li> Design, code, test and debug integrations using Oracle Integration Services.</li><li> Design, code, test and debug Business Processes (BPM) using Oracle Integration Services.</li><li> Design, code, test and debug Web Applications using the Visual Builder (VBCS) Oracle Integration Services. </li><li> Develop PL/SQL packages in Oracle DBs.</li><li>Design/Develop Web services and APIs as in RESTful.</li> </ul>",
-            "tools": ["oracle", "sql-developer", "oracle-vcbs", "oracle-integration-cloud"]
+            "tools": ["oracle", "sql-developer", "oracle-vcbs", "oracle-integration-cloud", "electron", "nodejs", "mongo", "dynamo-db", "react"]
         },
         {
             "id": 2,

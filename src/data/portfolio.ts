@@ -51,11 +51,11 @@ const portfolio = {
         },
         {
             "id": 2,
-            "title": "IaaS App",
-            "description": "<p>Creation of an infrastructure on OpenStack. Networks, Security Keys and Virtual Machines. Basic Openstack commands.<p>",
+            "title": "Lunch Picker App",
+            "description": "<p>This application solves the problem of What should I eat for lunch? It displays a random lunch, information about it and price, you can add your favorites meals and hopefully you will get it as your lunch recomendation.<p>",
             "image": "",
-            "url": "https://github.com/l222p/iaas-openstack",
-            "tools": ["openstack", "bash"]
+            "url": "https://github.com/l222p/lunch-app-fe",
+            "tools": ["react", "nodejs", "postgresql", "auth0"]
         },
         {
             "id": 1,

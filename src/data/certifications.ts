@@ -2,18 +2,29 @@ const certifications = {
     title: "Certifications",
     data:[
         {
-            id: 1,
+            id: 6,
+            universityName: "Udemy",
+            dateFrom: "2020",
+            dateTo: "",
+            degree: "Certification",
+            degreeTitle: "Spring Boot Microservices",
+            description: "",
+            image: "",
+            url:"https://www.udemy.com/certificate/UC-9214c99e-55c7-43a7-88fa-760e94fb947e/"
+        },
+        {
+            id: 5,
             universityName: "Scaled Agile",
             dateFrom: "2020",
             dateTo: "",
             degree: "Certification",
             degreeTitle: "SAFe® Scrum Master",
-            description: "A Certified SAFe 4 Scrum Master (SSM) is a SAFe Scrum Master professional responsible for integrating Scrum practices into an organization. Key areas of competency include using Scrum and Kanban to facilitate team events, supporting program execution, and coaching Agile teams.",
+            description: "",
             image: "",
             url:"https://www.youracclaim.com/badges/9dd885a0-7033-418d-95eb-5a6e03b7cfea/"
         },
         {
-            id: 2,
+            id: 4,
             universityName: "Cisco Networking Academy",
             dateFrom: "2017",
             dateTo: "",
@@ -35,7 +46,7 @@ const certifications = {
             url:"https://www.coursera.org/account/accomplishments/verify/LBTAV72QCWXX"
         },
         {
-            id: 4,
+            id: 2,
             universityName: "Mongo University",
             dateFrom: "2015",
             dateTo: "",
@@ -46,7 +57,7 @@ const certifications = {
             url:"https://university.mongodb.com/course_completion/ec4e40f1232140a28bfe0115b12bd083"
         },
         {
-            id: 5,
+            id: 1,
             universityName: "Mongo University",
             dateFrom: "2015",
             dateTo: "",

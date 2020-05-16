@@ -76,7 +76,7 @@ p {
   background-size: cover;
   background-position: center center;
   min-height: 680px;
-  height: 100vh;
+  height: 100%;
 }
 
 .left-banner-content h6 {
@@ -113,7 +113,6 @@ p {
   background-color: #0091ea;
   text-align: center;
   min-height: 680px;
-  height: 100vh;
 }
 
 .right-banner-content h2 {
