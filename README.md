@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Docker deployment
 
+Install and Build on VM
+
+ npm install
+ npm run build
+
 Build Docker Image: 
 
 `docker build -t cv-app .`
