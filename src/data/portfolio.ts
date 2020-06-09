@@ -7,7 +7,7 @@ const portfolio = {
             "description": "<p>This is a TODO manager, it is build using Spring Boot and Spring Cloud. Deployed on AWS using Docker containers.</p>",
             "image": "",
             "url": "https://github.com/l222p/microservice-app-todo",
-            "tools": ["java", "docker", "openstack", "etcd", "ffmpeg", "distributed-programming"]
+            "tools": ["java", "docker", "aws", "spring-boot", "mysql"]
         },
         {
             "id": 8,
