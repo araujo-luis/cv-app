@@ -35,7 +35,8 @@ const Experience: FC = () => {
                                         <div className="timeline-block">
                                             <div className="inner-box">
                                                 <div className="date">{item.fromDate} - {item.toDate}</div>
-                                                <h4>{item.company}</h4>
+                                                <h2>{item.company}</h2>
+                                                <h4>{item.position}</h4>
                                                 <h3>{item.location}</h3>
                                                 <div className="text" dangerouslySetInnerHTML={{ __html: item.description }}></div>
                                                 <div className="content-skills">

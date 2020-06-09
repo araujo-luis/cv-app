@@ -28,8 +28,8 @@ const IntroduceYourself: FC = () => {
                             <h2>Luis Araujo</h2>
                             <div className="line-dec"></div>
 
-                            <p>I'm a Software Engineer focused on web development and cloud computing, specializing in back-end development. I have worked in the development of web services based in Java and Spring frameworks as well as components using Node.js and Express. I have also developed front-end applications using Angular and React frameworks.</p>
-                            <p>I'm a high energy professional who likes being challenged with new projects. I enjoy having an active role within the entire software development life cycle. I'm able to identify, design, and implement appropriate technological solutions in a business environment.</p>
+                            <p>I am a Software Engineer focused on Web Development and Cloud Computing. I have worked over 4 years in the Education, Bank and Health Care industries, specifically in the backend development of web services based in Java and Spring as well as Node.js and Express. I have also developed frontend applications using Angular and React frameworks.</p>
+                            <p>I consider myself an energized professional who likes facing new challenges in each project. I enjoy having an active role within the entire software development life cycle and implementing clean/efficient code. I can identify, design, and implement appropriate technological solutions in a business environment. I love organization in my daily tasks to perform at my best in every line of code I write.</p>
 
                             <ul>
                                 <li><p>Java, JEE, MVC, SpringBoot, jUnit</p></li>

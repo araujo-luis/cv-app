@@ -6,7 +6,7 @@ const skills = [
     },
     {
         title: "NodeJS",
-        value: 65,
+        value: 80,
         description: "API Development"
     },
     {
@@ -16,7 +16,7 @@ const skills = [
     },
     {
         title: "React",
-        value: 50,
+        value: 60,
         description: "Components, API Calls"
     },
     {
@@ -26,7 +26,7 @@ const skills = [
     },
     {
         title: "MongoDB",
-        value: 55,
+        value: 65,
         description: "Replication, Indexes, Cluster, Queries"
     },
     {
@@ -36,7 +36,7 @@ const skills = [
     },
     {
         title: "Microservices Development",
-        value: 65,
+        value: 75,
         description: "Spring Cloud, Spring Config, Service Discovery, Netflix Gateway, Netflix Hystrix"
     },
     {

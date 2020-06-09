@@ -2,6 +2,14 @@ const portfolio = {
     "title": "Portfolio",
     "data": [
         {
+            "id": 9,
+            "title": "Todo App - Microservices",
+            "description": "<p>This is a TODO manager, it is build using Spring Boot and Spring Cloud. Deployed on AWS using Docker containers.</p>",
+            "image": "",
+            "url": "https://github.com/l222p/microservice-app-todo",
+            "tools": ["java", "docker", "openstack", "etcd", "ffmpeg", "distributed-programming"]
+        },
+        {
             "id": 8,
             "title": "Distributed Video Coding App",
             "description": "<p>Master's Thesis about the development of a distributed application for encoding videos in a cloud architecture. The application analyzes a video and splits it into scenes that will be distributed to different machines for coding. The results obtained are analyzed and compared with the operation of encoding the video by splitting it into segments of fixed size in terms of time, quality and size. </p><p>Code and results are being considered to be published in an  article.</p>",
