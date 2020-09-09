@@ -2,6 +2,17 @@ const certifications = {
     title: "Certifications",
     data:[
         {
+            id: 7,
+            universityName: "Udemy",
+            dateFrom: "2020",
+            dateTo: "",
+            degree: "Certification",
+            degreeTitle: "AWS Certified Developer Asssociate",
+            description: "",
+            image: "",
+            url:"https://www.udemy.com/certificate/UC-124ccea3-8b98-492e-a801-2890c418898f/"
+        },
+        {
             id: 6,
             universityName: "Udemy",
             dateFrom: "2020",

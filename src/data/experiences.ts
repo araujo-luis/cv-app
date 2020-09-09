@@ -9,7 +9,7 @@ const experiences = {
             "location": "Tegucigalpa, Honduras",
             "fromDate": "Apr 2020",
             "toDate": "Present",
-            "description": "<ul><li>Developed Proctoring Software SUMADI.</li><li>Implemented Amazon Rekognition.</li><li>Implemented clean and efficient code.</li></ul>",
+            "description": "<ul><li>Developed SUMADI integration to assist the Colombian Secretary of Education (ICFES) to proctor exams for more than 87,000 students.</li><li>Implemented clean and efficient code as well as optimized database queries reducing 10% database stress.</li><li>Implemented Lambdas, SQS, DynamoDB, DocumentDB and Amazon Rekognition.</li></ul>",
             "tools": ["electron", "react", "nodejs", "mongodb", "aws", "dynamo-db"]
         },
         {
@@ -20,7 +20,7 @@ const experiences = {
             "location": "Tegucigalpa, Honduras",
             "fromDate": "Sep 2019",
             "toDate": "Apr 2020",
-            "description": "<ul><li> Participate in all aspects of the Software Development Lifecycle (SDLC) including definition, design, implementation, testing, delivery and support.            </li><li> Design, code, test and debug integrations using Apache Camel and message services like RabbitMQ</li><li> Design, code, test and debug integrations using Oracle Integration Services.</li><li> Design, code, test and debug Business Processes (BPM) using Oracle Integration Services.</li><li> Design, code, test and debug Web Applications using the Visual Builder (VBCS) Oracle Integration Services. </li><li> Develop PL/SQL packages in Oracle DBs.</li><li>Design/Develop Web services and APIs as in RESTful.</li> </ul>",
+            "description": "<ul><li>Automated unit testing for more than 80 integrations using Selenium Framework.</li><li>Designed, coded, tested and debugged REST enpoints and BPMs using Oracle Integration Services for E2G Project consumed by 60,000 students.</li><li>Automated documentation for more than 200 integrations with an application created on VBCS.</li><li>Participated in all aspects of the Software Development Lifecycle (SDLC) including definition, design, implementation, testing, delivery and support.</li></ul>",
             "tools": ["oracle", "sql-developer", "oracle-vcbs", "oracle-integration-cloud", "nodejs", "mongo", "dynamo-db", "react"]
         },
         {
@@ -31,7 +31,7 @@ const experiences = {
             "location": "Valencia, Spain",
             "fromDate": "Apr 2019",
             "toDate": "Jul 2019",
-            "description": "<ul><li> Supported on developing Hospital Information System (HIS) SINA Suite.</li><li> Implemented unit tests and code quality.</li>            </ul>",
+            "description": "<ul><li>Implemented unit tests and clean code for than 4 SINA modules.</li><li>Developed REST endpoints from scratch for SINA Suite Oncology Module.</li><li>Modeled database tables for Oncology Module. </li></ul>",
             "tools": ["spring", "angular-7", "ms-sql-server", "bibernate", "elastic-search", "git", "source-tree", "enterprise-architect", "rabbitmq", "scrum"]
         },
         {
@@ -42,7 +42,7 @@ const experiences = {
             "location": "Tegucigalpa, Honduras",
             "fromDate": "Dec 2016",
             "toDate": "Sep 2018",
-            "description": "<ul><li> Supported implementation of products related to Laureate Education online classes (e-Learning). </li><li> Developed solutions to support effective use of product and process innovation.</li><li> Provided expert knowledge on Blackboard and other LMS platforms, as needed. </li> </ul>",
+            "description": "<ul><li>Built an innovative solution to support effective use of product through modular courses for more than 3 Laureate Programs.</li><li>Supported implementation of products related to Laureate Education online classes on different Laureate Institutions such as Walden, University of St. Augustine, UVM and UPC.</li><li>Awarded Positive Leadership recognition addressed to employees who supported others succeed and thrive to produce the best possible results for students, faculty, and staff.</li><li>Provided expert knowledge on Blackboard and other LMS platforms, as needed.</li> </ul>",
             "tools": ["html", "css", "javascript", "nodejs", "blackboard", "postgre-sql"]
         },
         {

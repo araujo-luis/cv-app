@@ -4,46 +4,34 @@ const Portfolio: FC = () => {
     return (
         <section className="best-offer" id="best-offer-section">
 
-            <div className="portfolio">
-                <ul className="surveys grid">
+            <div className="portfolio container">
+                <div className="row">
                     {portfolio.data.map(item => (
-                        <div key={item.id} className="col-md-10 col-lg-8 center">
-                            <li className="survey-item">
+                        <div key={item.id} className="col-md-4 col-xs-1 center d-flex align-items-stretch">
+                            <div className="tile">
 
-                                <span className="survey-name">
-                                    {item.title}
-                                </span>
+                                <h3 className="tile-title">{item.title}</h3>
                                 <div className="content-skills">
                                     {item.tools.map((tool, index) => (
                                         <button key={index}>{tool}</button>
                                     ))}
                                 </div>
-
-                                <div className="pull-right">
-
-                                    <span className="survey-progress">
-                                        <span className="survey-progress-bg">
-                                            <span className="survey-progress-fg" style={{ width: "88%" }}></span>
-                                        </span>
-
-                                        <span className="survey-progress-labels">
-
-
-                                            <span className="survey-completes">
-                                                <a href={item.url} target="_blank" rel="noopener noreferrer" className="">More information</a>
-                                            </span>
-                                        </span>
-                                    </span>
-
-                                    <p dangerouslySetInnerHTML={{__html: item.description}} className="survey-end-date ended">
-                                        
-                                    </p>
+                                <hr />
+                                <p dangerouslySetInnerHTML={{ __html: item.description }} className="description-portfolio"></p>
+                                <div className="more-info">
+                                    <a href={item.url}
+                                        className="btn btn-primary btn-large btn-block"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        More information
+                                    </a>
                                 </div>
-                            </li>
+
+                            </div>
                         </div>
 
                     ))}
-                </ul>
+                </div>
             </div>
         </section>
     );

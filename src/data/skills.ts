@@ -1,13 +1,13 @@
 const skills = [
     {
-        title: "Java/Spring Boot",
-        value: 80,
-        description: "Spring Cloud, Spring Data, Spring Security, Spring HATEOAS, Spring AMQP "
-    },
-    {
         title: "NodeJS",
         value: 80,
         description: "API Development"
+    },
+    {
+        title: "Java/Spring Boot",
+        value: 70,
+        description: "Spring Cloud, Spring Data, Spring Security, Spring HATEOAS, Spring AMQP "
     },
     {
         title: "Web Design HTML and CSS",
@@ -26,7 +26,7 @@ const skills = [
     },
     {
         title: "MongoDB",
-        value: 65,
+        value: 75,
         description: "Replication, Indexes, Cluster, Queries"
     },
     {
