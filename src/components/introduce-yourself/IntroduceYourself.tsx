@@ -28,12 +28,12 @@ const IntroduceYourself: FC = () => {
                             <h2>Luis Araujo</h2>
                             <div className="line-dec"></div>
 
-                            <p>I am a Software Engineer focused on Web Development and Cloud Computing. I have worked over 4 years in the Education, Bank and Health Care industries, specifically in the backend development of web services based in Java and Spring as well as Node.js and Express. I have also developed frontend applications using Angular and React frameworks.</p>
+                            <p>I am a Software Engineer focused on Web Development and Cloud Computing. I have worked over 4 years in the Education, Bank and Health Care industries, specifically in the backend development of web services based in Node.js and Express as well as Java and Spring. I have also developed frontend applications using Angular and React frameworks.</p>
                             <p>I consider myself an energized professional who likes facing new challenges in each project. I enjoy having an active role within the entire software development life cycle and implementing clean/efficient code. I can identify, design, and implement appropriate technological solutions in a business environment. I love organization in my daily tasks to perform at my best in every line of code I write.</p>
 
                             <ul>
+                                <li><p>Typescript, Angular, React, NodeJS, Express, jQuery</p></li>
                                 <li><p>Java, JEE, MVC, SpringBoot, jUnit</p></li>
-                                <li><p>JavaScript, Angular, React, NodeJS, Express, jQuery</p></li>
                                 <li><p>MS SQL, MySQL, Oracle, MongoDB</p></li>
                                 <li><p>Distributed Systems, RabbitMQ, ActiveMQ</p></li>
                                 <li><p>Amazon Web Services, Docker Containers, Cloud Computing, OpenStack</p></li>

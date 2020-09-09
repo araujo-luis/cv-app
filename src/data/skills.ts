@@ -1,6 +1,6 @@
 const skills = [
     {
-        title: "NodeJS",
+        title: "Typescript/NodeJS",
         value: 80,
         description: "API Development"
     },
@@ -15,7 +15,7 @@ const skills = [
         description: "HTML5, CSS3, Responsive Web Design"
     },
     {
-        title: "React",
+        title: "Typescript/React",
         value: 60,
         description: "Components, API Calls"
     },
