@@ -7,7 +7,7 @@ const Portfolio: FC = () => {
             <div className="portfolio container">
                 <div className="row">
                     {portfolio.data.map(item => (
-                        <div key={item.id} className="col-md-4 col-xs-1 center d-flex align-items-stretch">
+                        <div key={item.id} className="col-xs-1 col-md-6 col-lg-4 center d-flex align-items-stretch">
                             <div className="tile">
 
                                 <h3 className="tile-title">{item.title}</h3>
