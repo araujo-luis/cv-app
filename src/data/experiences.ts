@@ -31,7 +31,7 @@ const experiences = {
             "location": "Valencia, Spain",
             "fromDate": "Apr 2019",
             "toDate": "Jul 2019",
-            "description": "<ul><li>Implemented unit tests and clean code for than 4 SINA modules.</li><li>Developed REST endpoints from scratch for SINA Suite Oncology Module.</li><li>Modeled database tables for Oncology Module. </li></ul>",
+            "description": "<ul><li>Implemented unit tests and clean code for 4 SINA modules.</li><li>Developed REST endpoints from scratch for SINA Suite Oncology Module.</li><li>Modeled database tables for Oncology Module. </li></ul>",
             "tools": ["spring", "angular-7", "ms-sql-server", "bibernate", "elastic-search", "git", "source-tree", "enterprise-architect", "rabbitmq", "scrum"]
         },
         {
