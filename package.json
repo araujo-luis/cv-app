@@ -36,7 +36,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "deploy": "aws s3 sync build/ s3://cv-luis-araujo"
   },
   "eslintConfig": {
     "extends": "react-app"

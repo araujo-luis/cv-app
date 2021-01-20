@@ -19,6 +19,14 @@ Run Docker Container
 
 `docker run -d -p 80:80 -p 443:443 cv-app`
 
+
+Deploy on S3, run ` aws configure` to set credentials, regions is us-east-2, then
+
+    npm run deploy
+
+Generate SSL Certificate
+
+    docker run -it -v ./certificates:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --email araujoluis358@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.luisaraujo.io'
 ## Available Scripts
 
 In the project directory, you can run:
