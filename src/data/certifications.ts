@@ -2,6 +2,17 @@ const certifications = {
     title: "Certifications",
     data:[
         {
+            id: 8,
+            universityName: "Scaled Agile",
+            dateFrom: "2021",
+            dateTo: "2022",
+            degree: "Certification",
+            degreeTitle: "SAFe® 5 Product Owner/Product Manager",
+            description: "",
+            image: "",
+            url:"https://www.youracclaim.com/badges/7eac7059-b6af-41e3-a329-9bcf8081846c"
+        },
+        {
             id: 7,
             universityName: "Udemy",
             dateFrom: "2020",
@@ -29,7 +40,7 @@ const certifications = {
             dateFrom: "2020",
             dateTo: "",
             degree: "Certification",
-            degreeTitle: "SAFe® Scrum Master",
+            degreeTitle: "SAFe® 4 Scrum Master",
             description: "",
             image: "",
             url:"https://www.youracclaim.com/badges/9dd885a0-7033-418d-95eb-5a6e03b7cfea/"
