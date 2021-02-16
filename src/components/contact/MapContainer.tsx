@@ -23,8 +23,8 @@ const MapContainer : FC<MapProps> = (props) => {
           defaultZoom={props.zoom}
         >
           <AnyReactComponent
-            lat={59.955413}
-            lng={30.337844}
+            lat={59.3293}
+            lng={18.0686}
             text="I'm here!"
           />
         </GoogleMapReact>

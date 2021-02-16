@@ -2,13 +2,24 @@ const experiences = {
     "title": "Experience",
     "data": [
         {
+            "id": 7,
+            "company": "Nordic Entertainment Group",
+            "companyLogo":"",
+            "position": "Software Developer",
+            "location": "Stockholm, Sweden",
+            "fromDate": "Feb 2021",
+            "toDate": "Present",
+            "description": "<ul><li>Building strong and high performing micro-services in Node.js or Golang running in AWS</li><li>Flexible production environment supported by Docker hosted in the Amazon Cloud.</li><li>Using multiple programming paradigms and languages.</li></ul>",
+            "tools": ["microservices", "airflow", "nodejs", "mongodb", "aws", "dynamo-db"]
+        },
+        {
             "id": 6,
             "company": "Laureate International Universities",
             "companyLogo":"",
             "position": "Software Engineer",
             "location": "Tegucigalpa, Honduras",
             "fromDate": "Apr 2020",
-            "toDate": "Present",
+            "toDate": "Feb 2021",
             "description": "<ul><li>Developed SUMADI integration to assist the Colombian Secretary of Education (ICFES) to proctor exams for more than 87,000 students.</li><li>Implemented clean and efficient code as well as optimized database queries reducing 10% database stress.</li><li>Implemented Lambdas, SQS, DynamoDB, DocumentDB and Amazon Rekognition.</li></ul>",
             "tools": ["electron", "react", "nodejs", "mongodb", "aws", "dynamo-db"]
         },
