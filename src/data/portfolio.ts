@@ -67,37 +67,13 @@ const portfolio = {
             "tools": ["openstack", "rabbit-mq", "java", "opencv", "distributed-programming"]
         },
         {
-<<<<<<< Updated upstream
             "id": 1,
-=======
-            "id": 3,
-            "title": "LBaaS App",
-            "description": " <p>Creation of a Load Balancer as a Service in Openstack. The experiment consists in creating the infrastructure, it means 3 nodes with tomcat installed which are identified with a HTML page and a Single Point Entry (Load Balancer). At the end, there are response time brought from JMeter.</p>",
-            "image": "",
-            "url": "https://github.com/araujo-luis/lbaas-openstack",
-            "tools": ["openstack", "bash"]
-        },
-        {
-            "id": 2,
->>>>>>> Stashed changes
             "title": "Lunch Picker App",
             "description": "<p>This application solves the problem of What should I eat for lunch? It displays a random lunch, information about it and price, you can add your favorites meals and hopefully you will get it as your lunch recomendation.<p>",
             "image": "",
             "url": "https://github.com/araujo-luis/lunch-app-fe",
             "tools": ["react", "nodejs", "postgresql", "auth0"]
-        },
-<<<<<<< Updated upstream
-        
-=======
-        {
-            "id": 1,
-            "title": "Concurrent Count Word App",
-            "description": "<p>It's an app about counting works from documents hosted in a server. It has a pool of fixed-sized threads and a class which implements <code>Callable <Integer></code> and counts the number of times a word appears in a single file obtained from the server.</p> App",
-            "image": "",
-            "url": "https://github.com/araujo-luis/concurrent-word-count",
-            "tools": ["java", "concurrent-programming"]
         }
->>>>>>> Stashed changes
     ]
 };
 
