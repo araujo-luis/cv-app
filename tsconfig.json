@@ -19,9 +19,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src"
-  ],
- 
+  ]
 }

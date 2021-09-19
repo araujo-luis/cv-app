@@ -9,7 +9,7 @@ const experiences = {
             "location": "Stockholm, Sweden",
             "fromDate": "Feb 2021",
             "toDate": "Present",
-            "description": "<ul><li>Building strong and high performing micro-services in Node.js or Golang running in AWS</li><li>Flexible production environment supported by Docker hosted in the Amazon Cloud.</li><li>Using multiple programming paradigms and languages.</li></ul>",
+            "description": "<ul><li>Building strong and high performing micro-services in Node.js running in AWS</li><li>Flexible production environment supported by Docker hosted in the Amazon Cloud.</li><li>Using multiple programming paradigms and languages.</li></ul>",
             "tools": ["microservices", "airflow", "nodejs", "mongodb", "aws", "dynamo-db"]
         },
         {

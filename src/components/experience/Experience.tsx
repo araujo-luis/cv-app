@@ -30,7 +30,7 @@ const Experience: FC = () => {
                             <div className="inner">
                                 <div className="col-header"><div className="icon-box"><div className="icon-inner"><div className="icon"><span className="flaticon-briefcase-1"><FontAwesomeIcon icon={faBriefcase} /></span></div></div></div> <h2>Work Experience</h2></div>
 
-                                {experiences.data.map((item, index) => (
+                                {experiences.data.map((item: ExperienceData, index) => (
                                     <Fade key={item.id} left>
                                         <div className="timeline-block">
                                             <div className="inner-box">

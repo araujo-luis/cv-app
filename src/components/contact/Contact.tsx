@@ -7,10 +7,10 @@ import { faEnvelope, faBirthdayCake, faGlobe } from '@fortawesome/free-solid-svg
 const Contact: FC = () => {
     const defaultProps = {
         center: {
-            lat: 14.0650,
-            lng: -87.1715
+            lat: 59.3293,
+            lng: 18.0686
         },
-        zoom: 13
+        zoom: 11
     };
     return (
         <section className="best-offer contact" id="contact-me">
