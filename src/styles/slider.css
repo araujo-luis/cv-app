@@ -657,7 +657,9 @@
       font-size: 1.6rem;
     }
   }
-  
+  .col-lg-8.nopadding {
+    padding-right: 0 !important;
+}
   /* -------------------------------- 
   
   Javascript disabled

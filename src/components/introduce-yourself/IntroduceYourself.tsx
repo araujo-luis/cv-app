@@ -7,7 +7,7 @@ const IntroduceYourself: FC = () => {
         <section className="banner" id="top">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 nopadding">
                         <div className="left-banner-content">
                             <div className="text-content">
                                 <h6>Hi!</h6>

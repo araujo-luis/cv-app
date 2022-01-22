@@ -3,6 +3,17 @@ const certifications = {
     data:[
         {
             id: 8,
+            universityName: "Amazon Web Services - Training and Certification",
+            dateFrom: "2022",
+            dateTo: "2025",
+            degree: "Certification",
+            degreeTitle: "AWS Certified Developer - Asssociate",
+            description: "",
+            image: "",
+            url:"https://www.credly.com/badges/7c4aede8-21df-47fe-9897-bbacb926c620"
+        },
+        {
+            id: 7,
             universityName: "Scaled Agile",
             dateFrom: "2021",
             dateTo: "2022",
@@ -11,17 +22,6 @@ const certifications = {
             description: "",
             image: "",
             url:"https://www.youracclaim.com/badges/7eac7059-b6af-41e3-a329-9bcf8081846c"
-        },
-        {
-            id: 7,
-            universityName: "Udemy",
-            dateFrom: "2020",
-            dateTo: "",
-            degree: "Certification",
-            degreeTitle: "AWS Certified Developer Asssociate",
-            description: "",
-            image: "",
-            url:"https://www.udemy.com/certificate/UC-124ccea3-8b98-492e-a801-2890c418898f/"
         },
         {
             id: 6,
