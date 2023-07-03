@@ -3,14 +3,14 @@ const experiences = {
     "data": [
         {
             "id": 7,
-            "company": "Nordic Entertainment Group",
+            "company": "Viaplay Group",
             "companyLogo":"",
             "position": "Software Developer",
             "location": "Stockholm, Sweden",
             "fromDate": "Feb 2021",
             "toDate": "Present",
             "description": "<ul><li>Building strong and high performing micro-services in Node.js running in AWS</li><li>Flexible production environment supported by Docker hosted in the Amazon Cloud.</li><li>Using multiple programming paradigms and languages.</li></ul>",
-            "tools": ["microservices", "airflow", "nodejs", "mongodb", "aws", "dynamo-db"]
+            "tools": ["microservices", "nodejs", "mongodb", "aws", "dynamo-db", "rust", "typescript"]
         },
         {
             "id": 6,

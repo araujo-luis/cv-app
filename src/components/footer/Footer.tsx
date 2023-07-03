@@ -6,7 +6,7 @@ const Footer: FC = () => {
     return (
        <div className="footer">
 
-           <p>Made with <FontAwesomeIcon className="love-icon" icon={faHeart}/> in Honduras. Luis Araujo 2022 </p>
+           <p>Made with <FontAwesomeIcon className="love-icon" icon={faHeart}/> in Honduras. Luis Araujo 2023 </p>
            
        </div>
     );
