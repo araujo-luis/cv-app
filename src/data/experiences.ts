@@ -9,7 +9,7 @@ const experiences = {
             "location": "Stockholm, Sweden",
             "fromDate": "Feb 2021",
             "toDate": "Present",
-            "description": "<ul><li>Building strong and high performing micro-services in Node.js running in AWS</li><li>Flexible production environment supported by Docker hosted in the Amazon Cloud.</li><li>Using multiple programming paradigms and languages.</li></ul>",
+            "description": "<ul><li>Collaborated with a cross-functional team of data scientists, machine learning engineers, and product managers to design and develop recommendation algorithms and systems that enhanced user engagement and satisfaction.</li><li>Building strong and high-performing micro-services in Node.js running in AWS</li><li>Flexible production environment supported by Docker hosted in the Amazon Cloud.</li><li>Using multiple programming paradigms and languages.</li></ul>",
             "tools": ["microservices", "nodejs", "mongodb", "aws", "dynamo-db", "rust", "typescript"]
         },
         {
