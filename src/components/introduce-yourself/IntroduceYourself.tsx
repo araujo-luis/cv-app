@@ -28,14 +28,14 @@ const IntroduceYourself: FC = () => {
                             <h2>Luis Araujo</h2>
                             <div className="line-dec"></div>
 
-                            <p>I am a Software Engineer focused on Web Development and Cloud Computing. I have worked over 6 years in the Media, Education, Bank and Health Care industries, specifically in the backend development of web services based in Node.js, Spring Boot and Rust. I am also a AWS Certified Developer (Associate).</p>
-                            <p>I consider myself an energized professional who likes facing new challenges in each project. I enjoy having an active role within the entire software development life cycle and implementing clean/efficient code. I can identify, design, and implement appropriate technological solutions in a business environment. I love organization in my daily tasks to perform at my best in every line of code I write.</p>
+                            <p>Software Engineer specialized in Web Development and Cloud Computing. I've dedicated over six years to serving various industries including Media, Education, Banking, and Healthcare. My expertise lies in backend development, particularly in crafting web services using Node.js, Spring Boot, and Rust. Additionally, I hold certification as an AWS Certified Developer (Associate).</p>
+                            <p>I consider myself an energized professional who likes facing new challenges in each project. I enjoy having an active role within the entire software development life cycle and implementing clean/efficient code. I love organization in my daily tasks to perform at my best in every line of code I write.</p>
 
                             <ul>
                                 <li><p>Typescript, NodeJS, Express</p></li>
                                 <li><p>Amazon Web Services, Docker Containers, Cloud Computing, OpenStack</p></li>
                                 <li><p>Rust</p></li>
-                                <li><p>Java, JEE, MVC, SpringBoot, jUnit</p></li>
+                                <li><p>Java, SpringBoot, jUnit</p></li>
                                 <li><p>DynamoDB, MySQL, Oracle, MongoDB</p></li>
                                 <li><p>Distributed Systems, RabbitMQ, ActiveMQ</p></li>
                                 <li><p>Agile Methodologies, Scrum, SAFe</p></li>

@@ -2,13 +2,24 @@ const experiences = {
     "title": "Experience",
     "data": [
         {
+            "id": 8,
+            "company": "Swedbank",
+            "companyLogo":"",
+            "position": "Software Engineer",
+            "location": "Stockholm, Sweden",
+            "fromDate": "Sep 2023",
+            "toDate": "Present",
+            "description": "<ul><li>Design and develop a new microservice architecture tailored to optimize open account flows within our system.</li><li>Collaborate with cross-functional teams including software developers, product managers, and system architects to gather requirements and define architecture specifications.</li><li>Ensure adherence to security and compliance standards throughout the architecture design and implementation process.</li></ul>",
+            "tools": ["microservices", "java", "spring-boot", "typescript"]
+        },
+        {
             "id": 7,
             "company": "Viaplay Group",
             "companyLogo":"",
             "position": "Software Developer",
             "location": "Stockholm, Sweden",
             "fromDate": "Feb 2021",
-            "toDate": "Present",
+            "toDate": "Aug 2023",
             "description": "<ul><li>Collaborated with a cross-functional team of data scientists, machine learning engineers, and product managers to design and develop recommendation algorithms and systems that enhanced user engagement and satisfaction.</li><li>Building strong and high-performing micro-services in Node.js running in AWS</li><li>Flexible production environment supported by Docker hosted in the Amazon Cloud.</li><li>Using multiple programming paradigms and languages.</li></ul>",
             "tools": ["microservices", "nodejs", "mongodb", "aws", "dynamo-db", "rust", "typescript"]
         },

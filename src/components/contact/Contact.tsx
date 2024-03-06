@@ -24,9 +24,7 @@ const Contact: FC = () => {
                                 <div className="contact-info">
                                     <h3>Contact Information</h3>
                                     <ul className='icons'>
-                                        <li> <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:luis_araujocaballero@hotmail.com">luis_araujocaballero@hotmail.com</a></li>
-                                        <li> <FontAwesomeIcon icon={faBirthdayCake} /> Oct 22 1993</li>
-                                        <li> <FontAwesomeIcon icon={faGlobe} /> Honduran</li>
+                                        <li> <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:araujoluis358@gmail.com">araujoluis358@gmail.com</a></li>
                                     </ul>
                                     
                                     <p>You can also find me at:</p>
