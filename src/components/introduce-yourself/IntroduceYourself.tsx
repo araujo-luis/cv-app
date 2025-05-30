@@ -13,7 +13,7 @@ const IntroduceYourself: FC = () => {
                                 <h6>Hi!</h6>
                                 <div className="line-dec"></div>
                                 <Typist>
-                                    <h1>I'm Luis Araujo</h1>
+                                    <h1>Luis Araujo</h1>
                                     <h3>Software Engineer</h3>
                                 </Typist>
                                 <div className="white-border-button">
