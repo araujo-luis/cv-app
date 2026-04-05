@@ -57,7 +57,7 @@ const TimelineItem: FC<TimelineItemProps> = ({ date, title, subtitle, location, 
 
 const Experience: FC = () => {
   return (
-    <section className="bg-zinc-950 py-24" id="events-section">
+    <section className="bg-zinc-950 py-24 grid-pattern" id="events-section">
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading title="Resume" accent="Experience" id="my-resume" />
 

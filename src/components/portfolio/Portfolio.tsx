@@ -42,7 +42,7 @@ const TiltCard: FC<TiltCardProps> = ({ children, className = '' }) => {
 
 const Portfolio: FC = () => {
   return (
-    <section className="bg-zinc-950 py-24">
+    <section className="bg-zinc-950 py-24 grid-pattern">
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading title="Portfolio" accent="Projects" id="my-portfolio" />
 
