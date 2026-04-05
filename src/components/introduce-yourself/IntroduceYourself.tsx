@@ -122,6 +122,7 @@ const IntroduceYourself: FC = () => {
                   "Building robust backend systems",
                   "Crafting cloud-native solutions",
                   "Engineering distributed architectures",
+                  "Driving agentic development with AI",
                 ]}
                 className="text-lg md:text-xl text-zinc-400 font-light"
                 intervalMs={3500}

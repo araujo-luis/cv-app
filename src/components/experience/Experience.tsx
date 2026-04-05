@@ -64,7 +64,7 @@ const Experience: FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-16 mt-16">
           {/* Left — Work Experience */}
           <div>
-            <div className="flex items-center gap-3 mb-8 lg:sticky lg:top-24">
+            <div className="flex items-center gap-3 mb-8">
               <Briefcase size={22} className="text-accent" weight="duotone" />
               <h3 className="text-zinc-100 font-semibold text-xl">Work Experience</h3>
             </div>
