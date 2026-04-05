@@ -8,6 +8,7 @@ import Contact from './components/contact/Contact';
 import NavigationBar from './components/navigation/NavigationBar';
 import Portfolio from './components/portfolio/Portfolio';
 import Footer from './components/footer/Footer';
+import VideoDivider from './components/ui/VideoDivider';
 import NotFound from './components/NotFound/NotFound';
 
 const App: FC = () => {
@@ -38,6 +39,7 @@ const Home: FC = () => {
       <IntroduceYourself />
       <Experience />
       <Skills />
+      <VideoDivider />
       <Portfolio />
       <Contact />
       <Footer />

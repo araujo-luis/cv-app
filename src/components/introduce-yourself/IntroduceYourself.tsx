@@ -1,21 +1,100 @@
-import React, { FC } from 'react';
-import { motion } from 'framer-motion';
-import { DownloadSimple } from '@phosphor-icons/react';
-import TextScramble from '../ui/TextScramble';
-import SocialIcons from './SocialIcons';
-import { staggerContainer, fadeUp, springTransition } from '../../lib/animations';
+import React, { FC } from "react";
+import { motion } from "framer-motion";
+import { DownloadSimple } from "@phosphor-icons/react";
+import TextScramble from "../ui/TextScramble";
+import SocialIcons from "./SocialIcons";
+import {
+  staggerContainer,
+  fadeUp,
+  springTransition,
+} from "../../lib/animations";
+import heroPhoto from "../../assets/images/banner-bg.jpg";
 
 const techPills = [
-  'TypeScript', 'Node.js', 'Spring Boot', 'Rust', 'AWS',
-  'Docker', 'MongoDB', 'DynamoDB', 'React', 'Distributed Systems',
+  "TypeScript",
+  "Node.js",
+  "Spring Boot",
+  "Rust",
+  "AWS",
+  "Docker",
+  "MongoDB",
+  "DynamoDB",
+  "React",
+  "Distributed Systems",
 ];
 
 const IntroduceYourself: FC = () => {
   return (
-    <section id="top" className="min-h-[100dvh] flex items-center bg-zinc-950 pt-16">
-      <div className="max-w-7xl mx-auto px-6 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-16 lg:gap-24 items-center">
-          {/* Left */}
+    <section
+      id="top"
+      className="relative min-h-[100dvh] flex items-center overflow-hidden"
+    >
+      {/* Photo — editorial right-aligned, large and atmospheric */}
+      <motion.div
+        className="absolute inset-0 pointer-events-none"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5, delay: 0.3 }}
+      >
+        {/* Desktop: flipped */}
+        <img
+          src={heroPhoto}
+          alt=""
+          aria-hidden="true"
+          className="hidden lg:block absolute inset-0 w-full h-full object-cover -scale-x-100"
+          style={{
+            filter: "saturate(0.35) brightness(0.55) contrast(1.1)",
+            objectPosition: "90% 65%",
+          }}
+        />
+        {/* Mobile: not flipped, face centered */}
+        <img
+          src={heroPhoto}
+          alt=""
+          aria-hidden="true"
+          className="lg:hidden absolute inset-0 w-full h-full object-cover"
+          style={{
+            filter: "saturate(0.35) brightness(0.55) contrast(1.1)",
+            objectPosition: "30% 25%",
+          }}
+        />
+        {/* Gradient mask: desktop — fades left for text */}
+        <div
+          className="hidden lg:block absolute inset-0"
+          style={{
+            background: `
+              linear-gradient(to right, rgb(9,9,11) 0%, rgb(9,9,11) 25%, rgba(9,9,11,0.65) 45%, rgba(9,9,11,0.2) 65%, rgba(9,9,11,0.3) 100%),
+              linear-gradient(to bottom, rgba(9,9,11,0.4) 0%, transparent 25%, transparent 65%, rgb(9,9,11) 95%)
+            `,
+          }}
+        />
+        {/* Gradient mask: mobile — fades right to keep face visible on left */}
+        <div
+          className="lg:hidden absolute inset-0"
+          style={{
+            background: `
+              linear-gradient(to left, rgb(9,9,11) 0%, rgba(9,9,11,0.7) 30%, rgba(9,9,11,0.2) 55%, rgba(9,9,11,0.3) 100%),
+              linear-gradient(to bottom, rgba(9,9,11,0.3) 0%, transparent 20%, transparent 55%, rgb(9,9,11) 85%)
+            `,
+          }}
+        />
+      </motion.div>
+
+      {/* Layer 3: Overall edge vignette — ensures seamless blend on all sides */}
+      <div
+        className="absolute inset-0 pointer-events-none z-[1]"
+        style={{
+          background: `
+            radial-gradient(ellipse 80% 70% at 50% 50%, transparent 30%, rgba(9,9,11,0.6) 65%, rgb(9,9,11) 90%),
+            linear-gradient(to bottom, rgb(9,9,11) 0%, transparent 8%, transparent 90%, rgb(9,9,11) 100%)
+          `,
+        }}
+      />
+
+      {/* Content */}
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full pt-16">
+        <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-12 lg:gap-20 items-center">
+          {/* Left — Name & CTA */}
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -35,19 +114,31 @@ const IntroduceYourself: FC = () => {
               Luis Araujo
             </motion.h1>
 
-            <motion.div variants={fadeUp} className="mb-8">
+            <motion.div variants={fadeUp} className="mb-6">
               <TextScramble
                 texts={[
-                  'Building robust backend systems',
-                  'Crafting cloud-native solutions',
-                  'Engineering distributed architectures',
+                  "Building robust backend systems",
+                  "Crafting cloud-native solutions",
+                  "Engineering distributed architectures",
                 ]}
-                className="text-lg md:text-xl text-zinc-500 font-light"
+                className="text-lg md:text-xl text-zinc-400 font-light"
                 intervalMs={3500}
               />
             </motion.div>
 
-            <motion.div variants={fadeUp} className="flex items-center gap-6">
+            <motion.p
+              variants={fadeUp}
+              className="text-zinc-500 leading-relaxed max-w-[50ch] mb-8 text-sm"
+            >
+              Over six years across Media, Education, Banking, and Healthcare.
+              Specialized in backend development and cloud-native architectures
+              using Node.js, Spring Boot, and Rust. AWS Certified Developer.
+            </motion.p>
+
+            <motion.div
+              variants={fadeUp}
+              className="flex items-center gap-6 mb-8"
+            >
               <motion.a
                 href="https://cv-luis-araujo.s3.amazonaws.com/cv-luis-araujo.pdf"
                 target="_blank"
@@ -63,37 +154,21 @@ const IntroduceYourself: FC = () => {
               </motion.a>
               <SocialIcons />
             </motion.div>
-          </motion.div>
-
-          {/* Right */}
-          <motion.div
-            variants={staggerContainer}
-            initial="hidden"
-            animate="visible"
-            className="lg:border-l lg:border-zinc-800 lg:pl-16"
-          >
-            <motion.p variants={fadeUp} className="text-zinc-400 leading-relaxed mb-4 max-w-[55ch]">
-              Software Engineer with over six years across Media, Education, Banking, and Healthcare.
-              Specialized in backend development and cloud-native architectures using Node.js,
-              Spring Boot, and Rust. AWS Certified Developer.
-            </motion.p>
-
-            <motion.p variants={fadeUp} className="text-zinc-500 leading-relaxed mb-8 max-w-[55ch]">
-              Energized by new challenges, committed to clean code and active participation
-              across the full software development lifecycle.
-            </motion.p>
 
             <motion.div variants={fadeUp} className="flex flex-wrap gap-2">
               {techPills.map((tech) => (
                 <span
                   key={tech}
-                  className="bg-zinc-800/60 text-zinc-300 text-xs px-3 py-1.5 rounded-md border border-zinc-700/40"
+                  className="bg-zinc-800/40 text-zinc-400 text-xs px-3 py-1.5 rounded-md border border-zinc-700/30 backdrop-blur-sm"
                 >
                   {tech}
                 </span>
               ))}
             </motion.div>
           </motion.div>
+
+          {/* Right — empty, the photo background fills this space */}
+          <div className="hidden lg:block" />
         </div>
       </div>
     </section>
