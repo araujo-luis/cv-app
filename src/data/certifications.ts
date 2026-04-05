@@ -7,7 +7,7 @@ const certifications = {
             dateFrom: "2022",
             dateTo: "2025",
             degree: "Certification",
-            degreeTitle: "AWS Certified Developer - Asssociate",
+            degreeTitle: "AWS Certified Developer - Associate",
             description: "",
             image: "",
             url:"https://www.credly.com/badges/7c4aede8-21df-47fe-9897-bbacb926c620"

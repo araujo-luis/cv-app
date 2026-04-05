@@ -11,9 +11,11 @@ import {
 import heroPhoto from "../../assets/images/banner-bg.jpg";
 
 const techPills = [
+  "Claude Code",
+  "Java",
+  "Spring Boot",
   "TypeScript",
   "Node.js",
-  "Spring Boot",
   "Rust",
   "AWS",
   "Docker",
@@ -130,7 +132,7 @@ const IntroduceYourself: FC = () => {
               variants={fadeUp}
               className="text-zinc-500 leading-relaxed max-w-[50ch] mb-8 text-sm"
             >
-              Over six years across Media, Education, Banking, and Healthcare.
+              Over ten years across Media, Education, Banking, and Healthcare.
               Specialized in backend development and cloud-native architectures
               using Node.js, Spring Boot, and Rust. AWS Certified Developer.
             </motion.p>
