@@ -27,3 +27,6 @@ yarn-error.log*
 *.crt
 *.pem
 *.ca-bundle
+
+*storybook.log
+storybook-static
